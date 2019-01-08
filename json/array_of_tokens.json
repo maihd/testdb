@@ -1,0 +1,52 @@
+[
+    {
+        "null": null,
+        "boolean": [true, false],
+        "boolean_true": true,
+        "boolean_false": false,
+        
+        "number": [
+            1, 2, 3, 4, 5, 6, 7, 8, 9,
+            1.23456789,
+            12.3456789,
+            123.456789,
+            1234.56789,
+            12345.6789,
+            123456.789,
+            1234567.89,
+            12345678.9,
+
+            1e1, 2e2, 3e3, 4e4, 5e5, 6e6, 7e7, 8e8, 9e9, 10e0,
+            1e+1, 2e+2, 3e+3, 4e+4, 5e+5, 6e+6, 7e+7, 8e+8, 9e+9, 10e+0,
+            1e-1, 2e-2, 3e-3, 4e-4, 5e-5, 6e-6, 7e-7, 8e-8, 9e-9, 10e-0,
+            -1e-1, -2e-2, -3e-3, -4e-4, -5e-5, -6e-6, -7e-7, -8e-8, -9e-9, -10e-0
+        ],
+
+        "string": [
+            "hello world",
+            "newline string\n"
+        ],
+
+        "array": [
+            [], [], [], []
+        ],
+
+        "object": [
+            {},
+            {
+                "name": "David",
+                "age": 24,
+                "job": "programmer"
+            },
+            {
+                "name": "json",
+                "version": "v1.0.0"
+            }
+        ]
+    },
+    {
+        "encode": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+
+        "hello world": "\u0068\u0065\u006c\u006c\u006f \u0077\u006f\u0072\u006c\u0064"
+    }
+]
