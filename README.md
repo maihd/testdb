@@ -2,4 +2,4 @@
 
 ## Fileformat
 
-* [ ] JSON
+* [x] JSON
